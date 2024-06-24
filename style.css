@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background: black;
+} */
+.form{
+    width: 30%;
+    border: 1px solid blue;
+    margin: 1.5rem auto;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+}
+.form-head h1{
+    text-align: center;
+    padding: 35px;
+    color: #9923EA;
+    text-decoration: underline;
+}
+.information ul{
+    display: block;
+}
+.information ul li input{
+    width: 300px;
+    height: 50px;
+    padding-left: 3px;
+}
+.information ul li {
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    list-style: none;
+}
+.forgot-password p{
+    text-align: right;
+    margin-right: 28px;
+    font-size: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+    cursor: pointer;
+}
+.forgot-password p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.log-in-or-sign-up{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 40px auto;
+}
+button{
+    padding: 10px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.log-in{
+    background: #9923EA;
+    color: white;
+}
+.log-in:hover{
+    background: white;
+    color:  #9923EA;
+    transition-duration: 0.5s;
+}
+.sign-up{
+    color: #9923EA;
+}
+.sign-up:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
+.icons{
+    text-align: center;
+    padding: 20px;
+}
+.icons i{
+    padding: 0 5px;
+    font-size: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.icons .facebook{
+    color: #1877F2;
+}
+.icons .twitter{
+    color: #1DA1F2;
+}
+.icons .google{
+    color: #34A853;
+}
